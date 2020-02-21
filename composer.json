@@ -1,0 +1,49 @@
+{
+    "name": "mrcrmn/laravel-query-filters",
+    "description": "Filter your eloquent models based on request query parameters for your API.",
+    "keywords": [
+        "mrcrmn",
+        "laravel-query-filters"
+    ],
+    "homepage": "https://github.com/mrcrmn/laravel-query-filters",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Marco Reimann",
+            "email": "marcoreimann@outlook.de",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "illuminate/support": "^6.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mrcrmn\\QueryFilters\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mrcrmn\\QueryFilters\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mrcrmn\\QueryFilters\\QueryFiltersServiceProvider"
+            ]
+        }
+    }
+}
