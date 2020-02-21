@@ -57,7 +57,7 @@ class Controller
 So finally you can use your api like this:
 
 ```
-https://your-domain.com/api/your-model?where=price,>100&orderBy=-created_at
+https://your-domain.com/api/your-model?where=price,>,100&orderBy=-created_at
 ```
 
 ### Testing
