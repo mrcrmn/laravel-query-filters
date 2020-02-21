@@ -15,7 +15,7 @@ You can install the package via composer:
 composer require mrcrmn/laravel-query-filters
 ```
 
-## Baseic Usage
+## Basic Usage
 
 A more detailed documentation is work in progress!
 
