@@ -18,7 +18,9 @@ class Product extends Model implements Filterable
     {
         return [
             \Mrcrmn\QueryFilters\Where::class,
-            \Mrcrmn\QueryFilters\OrderBy::class
+            \Mrcrmn\QueryFilters\OrderBy::class,
+            \Mrcrmn\QueryFilters\Limit::class,
+            \Mrcrmn\QueryFilters\Offset::class,
         ];
     }
 }
